@@ -1,3 +1,3 @@
-import { TodoListModule } from "./src/appModule.js";
+import { AppModule } from "./src/appModule.js";
 
-TodoListModule.defineElements();
+AppModule.defineElements();
