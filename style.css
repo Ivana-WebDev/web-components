@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #636474;
+    --primary-color: #ffffff;
+    --accent-color: #7f3fa3;
+    --text-color: #000035;
+    --button-hover: #d4b9e4;
+    --button-active: #ddd;
+    --button-accent-hover: #7423a3;
+    --button-accent-active: #4f88b8;
+    --white: #ffffff;
+    --shadow: rgba(23, 26, 32, 0.2) 0px 0.15rem 0.5rem;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: "monserrat", sans-serif;
+    overflow-x: hidden;
+}
